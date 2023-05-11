@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements ClickInterface {
                 try{
                     wallpaperManager.setBitmap(bitmap,null, false,WallpaperManager.FLAG_LOCK);
                     wallpaperManager.setBitmap(bitmap,null, false,WallpaperManager.FLAG_SYSTEM);
-                    Toast.makeText(MainActivity.this, "O'rnatildi!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Asosiy ekranga O'rnatildi!", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
                 }catch (Exception e){
                     e.printStackTrace();
